@@ -68,6 +68,14 @@ functions
             }
         );
     }
+    fieldminMax1
+    {
+    	type		fieldMinMax;
+    	libs		(fieldFunctionObjects);
+    	mode		magnitude;
+    	fields		(p);
+    	writeControl	writeTime;
+    }
 }
 
 
